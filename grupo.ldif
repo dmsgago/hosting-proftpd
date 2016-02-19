@@ -1,0 +1,6 @@
+#Creacion del grupo de usuarios
+dn: cn=<username>,ou=group,dc=example,dc=com
+objectClass: top
+objectClass: posixGroup
+cn: <username>
+gidNumber: <gid>

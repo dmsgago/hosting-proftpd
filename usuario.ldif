@@ -1,0 +1,13 @@
+#Creacion del usuario
+dn: uid=<username>,ou=people,dc=example,dc=com
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+cn: <username>
+uid: <username>
+uidNumber: <uid>
+gidNumber: <gid>
+homeDirectory: /home/<username>
+userPassword: <password>
+loginShell: /bin/bash
+o: <dominio>
